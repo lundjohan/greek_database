@@ -1,0 +1,28 @@
+{
+	{
+		{
+			0L, R.drawable.acropolis_5_3, "The Acropolis",
+			"Antigoni stands at the Acropolis to explain its buildings and history"
+		},
+	   {
+			1L, R.drawable.greek_food_5_3, "Greek Food",
+			"We try and talk about some Greek food"
+		},
+	   {
+			2L, R.drawable.mycenae_5_3, "Mycenae",
+			"We travel to the historic city of Mycenae and talk about it's history"
+		}
+	}
+	{			
+		{0L, 0L, R.drawable.greece_flag_small, "1. Antigoni's Introduction", HOST_IPADDRESS+"/intro_with_subs.mp4?raw=true"},
+		{1L, 0L, R.drawable.greece_flag_small, "2. About The Homeros Epics",HOST_IPADDRESS+"/about_homeros.mp4?raw=true"},
+		{2L, 0L, R.drawable.greece_flag_small, "3. Buck Bunny","https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4"},
+
+
+		{3L, 1L, R.drawable.greece_flag_small, "1. Greek Food", null},
+
+
+		{4L, 2L, R.drawable.greece_flag_small, "1. Mycenae", null},
+		{5L, 2L, R.drawable.greece_flag_small, "2. Mycenae", null}
+	}
+}
