@@ -1,14 +1,14 @@
 [
 	{
-		"ChapterId": 0, "image": "/img/acropolis_5_3", "title": "The Acropolis",
+		"ChapterId": 0, "image": "/img/acropolis_5_3.png", "title": "The Acropolis",
 		"info": "Antigoni stands at the Acropolis to explain its buildings and history"
 	},
 	{
-		"ChapterId": 1, "image": "/img/greek_food_5_3", "title": "Greek Food",
+		"ChapterId": 1, "image": "/img/greek_food_5_3.jpeg", "title": "Greek Food",
 		"info": "We try and talk about some Greek food"
 	},
 	{
-		"ChapterId": 2, "image": "/img/mycenae_5_3", "title": "Mycenae",
+		"ChapterId": 2, "image": "/img/mycenae_5_3.jpeg", "title": "Mycenae",
 		"info": "We travel to the historic city of Mycenae and talk about it's history"
 	}
 ]
