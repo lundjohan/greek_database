@@ -1,0 +1,35 @@
+2021-06-04 TODO json & bildhantering:
+	Json-hantering:
+	  - Ha en sida med EN json fil som innehåller objekt för klasserna Chapter och ChapterParts
+	  - Vid uppstart av appen läsa in json-filen och spara in i databasen mha moshi.
+	    => bilderna kommer ha id som String ("/img/mycenae.jpg").
+	
+	Efter ovan - Bildhantering:
+	  - Läsa in bild från URL. URL fås från base-URL samt tillägget med namn på bilden. 
+	  - Spara bilden i internal storage mha File class. (ev. streaming om File ej funkar)
+	  - Spara referens till bild/filen i databasen (id är en string och är filens namn). 
+	  - När appen nu körs kan vi nu öppna mha bildens id [String] bilden från local storage.
+	  
+	  That's it.
+
+Part I filer => Github
+	1. Skriv json-filen manuellt (bilderna ska ha id som förklarande String istället, t ex /img/mycenae.jpg). Börja med att läsa https://www.baeldung.com/java-json-moshi (det du vill veta är hur json-filen måste se ut för att moshi ska kunna läsa den).
+	2. Lägg upp json-filen på Github under database-foldern. 
+	3. Lägg upp bilderna på Github under foldern *database-foldern*/img/motsvarande-id-namnet-för-bilden
+	
+Part II Json => database
+1. Inuti Repository::populateDatabase sätt trådblock medan du laddar in i databasen Chapter + ChapterParts
+2. Använd moshi för att läsa in jsonfilen och konvertera till databasen.
+
+Part III Github-Bilder => Local Storage
+1. Inifrån App.kt => Repository.dowloadImagesAndPutIntoLocalStorage
+
+Part IV Use images
+1. Idag använder vi t ex Repository.loadImageInto(id_of-_img, view_to_load_into). => flytta loadIntoFunktionen till ngn slags Util-klass om du vill (men det känns bara krångligare faktiskt)
+2. Annars kan vi behålla ovan, men
+3. ... vi sätter inte view_to_load_into.setImageResource, utan 
+  3.1 vi hämtar in bilden mha id:t som erhålls från local storage
+  3.2 sen sätter vi view_to_load_into.setImage... (Bitmap?). Kolla upp.
+  
+That's it! Klockan är 11.00 startade 08:30. Idag har jag kört på bra, nu rast.
+
