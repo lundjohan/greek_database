@@ -1,8 +1,8 @@
 [
-	{"chapterPartId": 0, "chapterId": 0, "smallImage": "greece_flag_small.png", "title": "1. Antigoni's Introduction", "videoLink": "https://github.com/lundjohan/videos/blob/master/intro_with_subs.mp4?raw=true"},
-	{"chapterPartId": 1, "chapterId": 0, "smallImage": "greece_flag_small.png", "title": "2. About The Homeros Epics", "videoLink": "https://github.com/lundjohan/videos/blob/master/about_homeros.mp4?raw=true"},
-	{"chapterPartId": 2, "chapterId": 0, "smallImage": "greece_flag_small.png", "title": "3. Buck Bunny", "videoLink": "https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4"},
-	{"chapterPartId": 3, "chapterId": 1, "smallImage": "greece_flag_small.png", "title": "1. Greek Food"},
-	{"chapterPartId": 4, "chapterId": 2, "smallImage": "greece_flag_small.png", "title": "1. Mycenae"},
-	{"chapterPartId": 5, "chapterId": 2, "smallImage": "greece_flag_small.png", "title": "2. Mycenae"}
+	{"chapterPartId": 0, "chapterId": 0, "smallImage": "/img/greece_flag_small.png", "title": "1. Antigoni's Introduction", "videoLink": "https://github.com/lundjohan/videos/blob/master/intro_with_subs.mp4?raw=true"},
+	{"chapterPartId": 1, "chapterId": 0, "smallImage": "/img/greece_flag_small.png", "title": "2. About The Homeros Epics", "videoLink": "https://github.com/lundjohan/videos/blob/master/about_homeros.mp4?raw=true"},
+	{"chapterPartId": 2, "chapterId": 0, "smallImage": "/img/greece_flag_small.png", "title": "3. Buck Bunny", "videoLink": "https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4"},
+	{"chapterPartId": 3, "chapterId": 1, "smallImage": "/img/greece_flag_small.png", "title": "1. Greek Food"},
+	{"chapterPartId": 4, "chapterId": 2, "smallImage": "/img/greece_flag_small.png", "title": "1. Mycenae"},
+	{"chapterPartId": 5, "chapterId": 2, "smallImage": "/img/greece_flag_small.png", "title": "2. Mycenae"}
 ]
